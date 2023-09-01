@@ -33,7 +33,7 @@ def test_convert_names_to_uppercase():
     assert updated_employees[1]['name'] == 'BOB', f"Expected 'BOB', got {updated_employees[1]['name']}"
 
 
-def test_transform_employee_data():
+def test_transform_employee_data_no_args():
     employees = [
         {'name': 'Alice', 'age': 30, 'salary': 5000, 'department': 'HR'},
         {'name': 'Bob', 'age': 40, 'salary': 6000, 'department': 'IT'}
