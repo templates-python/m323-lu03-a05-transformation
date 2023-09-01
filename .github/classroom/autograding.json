@@ -31,9 +31,9 @@
       "points": 1
     },
     {
-      "name": "test_transform_employee_data",
+      "name": "test_transform_employee_data_no_args",
       "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test_transform_employee_data\"",
+      "run": "pytest -v  -k \"test_transform_employee_data_no_args\"",
       "input": "",
       "output": "",
       "comparison": "included",
