@@ -11,6 +11,16 @@
       "points": 1
     },
     {
+      "name": "test_filter_by_age",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_filter_by_age\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
       "name": "test_convert_names_to_uppercase",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_convert_names_to_uppercase\"",
