@@ -1,12 +1,18 @@
-def calculate():
-    """
-    calculates the total
-    :return: None
-    """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+def transform_employee_data():
+    pass
+
+
+def increase_salary_by_department():
+    pass
+
+
+def convert_names_to_uppercase():
+    pass
+
+
+def transform_employee_data():
+    pass
 
 
 if __name__ == '__main__':
-    calculate()
+    pass
