@@ -1,0 +1,32 @@
+[
+  {
+    "name": "test_increase_salary_by_department",
+    "function": "test_increase_salary_by_department",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_filter_by_age",
+    "function": "test_filter_by_age",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_convert_names_to_uppercase",
+    "function": "test_convert_names_to_uppercase",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_transform_employee_data_no_args",
+    "function": "test_transform_employee_data_no_args",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_transform_employee_data_with_args",
+    "function": "test_transform_employee_data_with_args",
+    "timeout": 10,
+    "points": 1
+  }
+]
