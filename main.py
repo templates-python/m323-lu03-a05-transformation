@@ -67,11 +67,13 @@ if __name__ == '__main__':
         {'name': 'Grace', 'age': 32, 'salary': 5100, 'department': 'HR'},
         {'name': 'Hannah', 'age': 29, 'salary': 4600, 'department': 'Sales'},
         {'name': 'Ivy', 'age': 31, 'salary': 5300, 'department': 'Marketing'},
-        {'name': 'Jack', 'age': 50, 'salary': 7000, 'department': 'Finance'}
+        {'name': 'Jack', 'age': 50, 'salary': 7000, 'department': 'Finance'},
     ]
 
     # Test: Increasing salary in the IT department by 10%
-    updated_employees = transform_employee_data(employees, increase_salary_by_department, 'IT', 10)
+    updated_employees = transform_employee_data(
+        employees, increase_salary_by_department, 'IT', 10
+    )
     print(updated_employees)
 
     # Test: Filtering employees older than 35
@@ -79,5 +81,7 @@ if __name__ == '__main__':
     print(older_employees)
 
     # Test: Converting names to uppercase
-    uppercase_names_employees = transform_employee_data(employees, convert_names_to_uppercase)
+    uppercase_names_employees = transform_employee_data(
+        employees, convert_names_to_uppercase
+    )
     print(uppercase_names_employees)
